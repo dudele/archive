@@ -665,26 +665,26 @@
         "foggy",
 		"dummy",
 		"eagle", /*DUDELE Dictionary begins*/
-        "madam",
-        "alien",
-        "award",
-        "mount",
-        "cream",
-        "trial",
-        "first",
-        "movie",
-        "money",      
+		"madam",
+		"alien",
+		"award",
+		"mount",
+		"cream",
+		"trial",
+		"first",
+		"movie",
+		"money",
 		"poker",
 		"clown",
 		"motto",
-		"night", 
+		"night",
 		"power",
 		"state",
 		"river",
 		"basin",
 		"nobel",
 		"gifts",
-		"diary", 
+		"diary",
 		"smoke",
 		"chain",
 		"plane",
@@ -706,10 +706,31 @@
 		"creek",
 		"coast",
 		"windy",
-		"court",
-		"civil",
+		"peaks",
+		"books",
 		"marry",
-		"party", /*DUDELE Dictionary ends*/ 
+		"party",
+		"grade",
+		"lakes",
+		"apple",
+		"hoops",
+		"space",
+		"teeth",
+		"slave",
+		"obese",
+		"caves",
+		"stove",
+		"terms",
+		"civil",
+		"myths",
+		"daily",
+		"falls",
+		"chase",
+		"banks",
+		"right",
+		"court",
+		"birds",
+		"force", /*DUDELE Dictionary ends*/ 
         "taxes", 
         "train", 
         "music", 
@@ -3012,14 +3033,14 @@
 				"Texas hold 'em (also known as Texas holdem, hold 'em, and holdem) is one of the most popular variants of the card game of Poker. Although little is known about the invention of Texas hold 'em, the Texas Legislature officially recognizes Robstown, Texas, as the game's birthplace, dating it to the early 20th century. After the game spread throughout Texas, hold 'em was introduced to Las Vegas in 1963 at the California Club by Corky McCorquodale.", /*11 poker*/ 
 				"The 2016 Clown sightings were reports of people disguised as evil clowns in incongruous settings, such as near forests and schools. The sightings were first reported in Green Bay, Wisconsin, in what turned out to be a marketing stunt for a horror film. The phenomenon later spread to many other cities in the US. ", /*12 clown */ 
 				"The modern motto of the United States of America, as established in a 1956 law signed by President Dwight D. Eisenhower, is 'In God we trust'. The phrase first appeared on U.S. coins in 1864.", /*13 motto*/ 
-				"No city in the United States has a wider variety of nightlife options than New York. From trendy cocktail lounges in SoHo and rooftop bars in midtown Manhattan to pub crawls in the East Village and beer gardens in Brooklyn, there are countless ways to enjoy a night out in the Big Apple.", /*14 night*/
+				"No city in the United States has a wider variety of nightlife options than New York. From trendy cocktail lounges in SoHo and rooftop bars in midtown Manhattan to pub crawls in the East Village and beer gardens in Brooklyn, there are countless ways to enjoy a night out in the Big Apple.", /*14 night*/ 				
 				"According to the 2020 survey (released in 2021), the United States is the world's most powerful country. The United States has the world's largest economy, with a GDP of $20.93 trillion in 2020 and the most massive military budget of $778 billion in 2020.", /*15 power*/ 
 				"Ohio was the 17th state added to the United States… or was it? Though Congress approved Ohio’s request for statehood in 1803, they forgot to officially ratify the state constitution. It wasn’t until 150 years later that Ohio representative George H. Bender made a move to make his state official.", /*16 state*/ 
 				"The Missouri River is the longest river in North America. Rising in the Rocky Mountains of the Eastern Centennial Mountains of Southwestern Montana, the Missouri flows east and south for 2,341 miles (3,767 km) before entering the Mississippi River north of St. Louis, Missouri", /*17 river*/ 
 				"Badwater Basin is an endorheic basin in Death Valley National Park, Death Valley, Inyo County, California, noted as the lowest point in North America and the United States, with a depth of 282 ft below sea level.", /*18 basin*/ 
 				"Theodore Roosevelt was the first American Nobel Peace laureate when he won the prize on December 10, 1906. He received the award for the role he played in the Treaty of Portsmouth that brought the Russo-Japanese War to an end.", /*19 nobel*/ 
 				"The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The copper statue, a gift from the people of France to the people of the United States, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel.", /*20 gifts*/ 
-				"The Afghan War documents leak, also called the Afghan War Diary, is one of the biggest document leaks in US military history and is the disclosure of a collection of internal U.S. military logs of the War in Afghanistan, which were published by WikiLeaks on 25 July 2010. The logs consist of over 91,000 Afghan War documents, covering the period between January 2004 and December 2009.", /*21 diary*/ 				
+				"The Afghan War documents leak, also called the Afghan War Diary, is one of the biggest document leaks in US military history and is the disclosure of a collection of internal U.S. military logs of the War in Afghanistan, which were published by WikiLeaks on 25 July 2010. The logs consist of over 91,000 Afghan War documents, covering the period between January 2004 and December 2009.", /*21 diary*/ 				  
 				"The last televised cigarette ad ran at 11:50 P.M. during The Johnny Carson Show on Jan. 1, 1971. Alarming health studies had emerged as early as 1939 that linked cigarette smoking to higher incidences of cancer and heart disease and, by the end of the 1950s, all states had laws prohibiting the sale of cigarettes to minors.", /*22 smoke*/ 
 				"1 out of every 8 American workers have worked for the McDonald’s chain, including Amazon.com founder Jeff Bezos and pop singer Pink", /*23 chain*/ 
 				"A staggering number byt itself, more than 5000 commercial airplanes find their way across the US at any given time of the day.", /*24 plane*/ 
@@ -3041,10 +3062,31 @@
 				"Colonial Creek Falls is the tallest waterfall in the continental United States. In a horizontal traverse of more than 4,200 feet, it falls 2,568 feet vertically in 13 distinct drops, with an average incline of 65 degrees.", /*40 creek*/ 
 				"Alaska has the longest coastline in the USA. The Alaskan coastline stretches 6,640 miles (10,690 km), a distance greater than all the other states’ coastlines combined.  And if you add in the Alaskan islands, it boasts 33,904 miles (54,563 km) of shoreline!", /*41 coast*/ 
 				"Chicago is called the Windy City. The origins of Chicago’s famous nickname are not entirely clear. The most obvious explanation is that it comes from the frigid breezes that blow off Lake Michigan and sweep through the city’s streets.", /*42 windy*/ 
-				"The Supreme Court of the United States is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, as well as over state court cases that involve a point of federal law. ", /*43 court*/ 
-				"The American Civil War was a civil war in the United States between the Union and the Confederacy. The central cause of the war was the status of slavery, especially the expansion of slavery into territories acquired as a result of the Louisiana Purchase and the Mexican–American War. On the eve of the Civil War in 1860, four million of the 32 million Americans were enslaved black people, almost all in the South.", /*44 civil*/ 
+				"The highest mountain peak in the United States is Denali, formerly called Mt McKinley. It stands at more than 20,310 feet tall If you want to see Denali in person, it’s the site of a National Park with over six million acres of land to explore.", /*43 peaks*/ 
+				"The Darby Free Library in Pennsylvania is the oldest continuously operating library in the country. Originally opened by Quakers in 1743 it has been serving community members who enjoy the free things they can do with their library card for more than 275 years.", /*44 books*/ 
 				"The only U.S. president to never marry James Buchanan, the 15th president, remained unmarried not only throughout his entire presidency but also throughout his entire life, the only U.S. president to do either of those things. His niece, Harriet Lane Johnston, served as his first lady. ", /*45 marry*/ 
-				"The Boston Tea Party was an American political and mercantile protest by the Sons of Liberty in Boston, Massachusetts, on December 16, 1773. The target was the Tea Act of May 10, 1773, which allowed the British East India Company to sell tea from China in American colonies without paying taxes apart from those imposed by the Townshend Acts.", /*46 party*/ 	
+				"The Boston Tea Party was an American political and mercantile protest by the Sons of Liberty in Boston, Massachusetts, on December 16, 1773. The target was the Tea Act of May 10, 1773, which allowed the British East India Company to sell tea from China in American colonies without paying taxes apart from those imposed by the Townshend Acts.", /*46 party*/
+				"The current 50-star US flag was designed as part of a high school project by 17-year old Robert Heff. It was 1958, and there were only 48 states at the time but Heft had a hunch Hawaii and Alaska would soon be granted statehood. His teacher gave him a B- but went on to update the grade to an A after Heft submitted his design to the White House, eventually leading to a call from President Eisenhower that it had been selected as the official U.S. flag. ", /*47 grade*/ 
+				"Everyone knows Lake Superior is big (they don’t call it one of the Great Lakes for nothing, after all) but few people know exactly how large it really is. Not only is Lake Superior the largest freshwater lake in the world, but it holds three quadrillion gallons of water. That’s enough liquid to completely cover both North and South America under a foot of water. ", /*48 lakes*/ 
+				"Apple Inc. is an American multinational technology company that specializes in consumer electronics, software and online services headquartered in Cupertino, California, United States. The current price and stocks of Apple Inc. prices anywhere around $2 trillion. Co-founder Ronal Wayne sold his 10% stakes just after 12 days of founding the company. He sold the stakes for mere $800. Those stakes now cost around $60 Billion.", /*49 apple*/ 
+				"Being a supreme court justice is undoubtedly a stressful job. One way they let off a little steam is with a friendly game of basketball. A storage room on the top floor of the Supreme Court was converted into a basketball court. Justices and their clerks shoot hoops there. ", /*50 hoops*/ 
+				"If you were thinking the astronaut who has spent the most time in space was a man, you’d be wrong. That honor belongs to a woman. Astronaut Peggy Whitson has spent the most cumulative time in space.", /*51 space*/ 
+				"Most of us have heard at one time or another that George Washington had teeth made of wood but this isn’t true. Although he did rely on dentures due to losing his teeth early in life, forensic research has proved that his teeth were made from a combination of donkey, horse, and human teeth.", /*52 teeth*/ 
+				"The Clotilda, believed to be the last known slave ship to arrive in the United States, was smuggled into the country in 1860 when slavery was still legal but importing new slaves was outlawed, on the eve of the Civil War. The captain oversaw the transfer of his unwilling passengers to a second boat before burning and sinking the Clotilda. In 2019, the wreckage of the Clotilda was discovered in Alabama. ", /*53 slave*/ 
+				"America is the fattest country in the world, with 33 percent of the people being overweight and 66% believed to be obese.", /*54 obese*/ 
+				"Situated in the Green River Valley, Mammoth Cave National Park in Kentucky is home to the largest known natural cave system on the planet, with over 400 miles of cave explored. ", /*55 caves*/ 
+				"Ben Franklin was famously one of the Founding Fathers of our country, but he was also a revered inventor and scientist. His inventions included bifocals, the Franklin stove, the urinary catheter, and swimming fins. He is also one of the people who signed the U.S. Constitution.", /*56 stove*/ 
+				"Franklin D. Roosevelt served as president longer than anyone else: He served four terms and from 1933 to 1945. During that time he started the Social Security program, levied heavier taxes on the rich, and implemented the New Deal programs. The 22nd Amendment to the Constitution, which was ratified in 1951, now limits presidents to serving two full terms. ", /*57 terms*/ 
+				"The American Civil War was a civil war in the United States between the Union and the Confederacy. The central cause of the war was the status of slavery, especially the expansion of slavery into territories acquired as a result of the Louisiana Purchase and the Mexican–American War. On the eve of the Civil War in 1860, four million of the 32 million Americans were enslaved black people, almost all in the South.", /*58 civil*/ 
+				"Most people think Columbus landed in North America, but what you probably never learned about Columbus is that the explorer never set foot on the mainland. The only New World sites visited by Columbus were the Carribean Islands and parts of Central America and South America.", /*59 myths*/ 
+				"The oldest continuously-run newspaper in the United States is The Hartford Courant, known originally as The Connecticut Courant. The paper has been published since 1764 and the first issue was only four pages long. The newspaper recently digitized its archives, allowing historians to study issues from 250 years ago. ", /*60 daily*/ 
+				"Niagra Falls is one of the most iconic waterfalls in the world. In 1885, Niagra Falls State Park became the first state park established in the country. It was designed by Frederick Law Olmsted, who also designed Central Park in New York City.", /*61 falls*/ 
+				"The largest currency denomination circulated is the $10,000 bill. Unlike most other bills, it didn’t picture a president, but rather treasury secretary Salmon P. Chase, who went on to serve as Chief Justice of the Supreme Court starting in 1864. If you haven’t seen a $10,000 bill floating around, there’s a reason for that. The government stopped producing them in 1969. ", /*62 chase*/ 
+				"Alexander Hamilton established the first federal bank in Philadelphia in 1971, aptly named First Bank. Although the building is now a park service office, the history behind it and the gorgeous, columned exterior still make it a major tourist attraction. ", /*63 banks*/ 
+				"Women had to fight for their rights. The 19th amendment to the constitution, which finally gave women the right to vote, was passed by Congress in 1919 and ratified in 1920. It was a moment that changed women’s history forever. Not only did women finally have the right to vote, but the amendment also gave them the right to own property.", /*64 right*/ 
+				"The Supreme Court of the United States is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, as well as over state court cases that involve a point of federal law. ", /*65 court*/ 
+				"You’ve probably heard that Benjamin Franklin wanted the sturdy turkey to be our national bird instead of the majestic bald eagle. It’s an interesting story, but it’s not true. Franklin wrote his daughter a letter, stating that he thought the Great Seal looked more like a turkey than a bald eagle and from there, went on to philosophize about the attributes of both birds. This letter became the source for the turkey instead of the eagle myth. ", /*66 birds*/ 
+				"Air Force One is the official air traffic control call sign for a United States Air Force aircraft carrying the president of the United States. In common parlance, the term is used to denote US Air Force aircraft modified and used to transport the president and a metonym for the primary presidential aircraft, VC-25, although it can be used to refer to any Air Force aircraft the president travels on.", /*67 force*/ 
 				];	      
                 saveArchiveNoApp();
                 if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 314)) {
@@ -3253,7 +3295,7 @@
     })(c(HTMLElement));
     customElements.define("game-switch", Ps);
     var $s = document.createElement("template");
-      $s.innerHTML =	  '\n  <style>\n  .instructions {\n    font-size: 14px;\n    color: var(--color-tone-1)\n  }\n\n  .s {\n    border-bottom: 1px solid var(--color-tone-4);\n    border-top: 1px solid var(--color-tone-4);\n  }\n\n  . {\n    margin-top: 24px;\n    margin-bottom: 24px;\n  }\n\n  game-tile {\n    width: 40px;\n    height: 40px;\n  }\n\n  :host([page]) section {\n    padding: 16px;\n    padding-top: 0px;\n  }\n\n  </style>\n  <section>\n    <div class="instructions">\n      <p>Guess the <strong>DUDELE</strong> in 6 tries.</p>\n   <p>Each guess must be a valid word. Hit the enter button to submit.</p>\n      <p>After each guess, the colour of the tiles will change to show how close your guess was to the word.</p>\n <p>The answer will be a word/place/name/jargon related to India in some way, and an interesting trivia will be displayed after you play!</p>\n     <div class="s">\n        <p><strong>Examples</strong></p>\n        <div class="">\n          <div class="row">\n            <game-tile letter="s" evaluation="correct" reveal></game-tile>\n            <game-tile letter="t"></game-tile>\n            <game-tile letter="a"></game-tile>\n            <game-tile letter="i"></game-tile>\n            <game-tile letter="r"></game-tile>\n          </div>\n          <p>The letter <strong>S</strong> is in the word and in the right spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="p"></game-tile>\n            <game-tile letter="l" evaluation="present" reveal></game-tile>\n            <game-tile letter="u"></game-tile>\n            <game-tile letter="c"></game-tile>\n            <game-tile letter="k"></game-tile>\n          </div>\n          <p>The letter <strong>L</strong> is in the word but in the wrong spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="m"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="n"></game-tile>\n            <game-tile letter="e" evaluation="absent" reveal></game-tile>\n            <game-tile letter="y"></game-tile>\n          </div>\n          <p>The letter <strong>E</strong> is not in the word in any spot.</p>\n        </div>\n      </div>\n      <p><center>A new <strong>DUDELE</strong> will be available each day!</center></p>\n </div>\n  </section>\n';	
+      $s.innerHTML =	  '\n  <style>\n  .instructions {\n    font-size: 14px;\n    color: var(--color-tone-1)\n  }\n\n  .s {\n    border-bottom: 1px solid var(--color-tone-4);\n    border-top: 1px solid var(--color-tone-4);\n  }\n\n  . {\n    margin-top: 24px;\n    margin-bottom: 24px;\n  }\n\n  game-tile {\n    width: 40px;\n    height: 40px;\n  }\n\n  :host([page]) section {\n    padding: 16px;\n    padding-top: 0px;\n  }\n\n  </style>\n  <section>\n    <div class="instructions">\n      <p>Guess the <strong>DUDELE</strong> in 6 tries.</p>\n   <p>Each guess must be a valid word. Hit the enter button to submit.</p>\n      <p>After each guess, the colour of the tiles will change to show how close your guess was to the word.</p>\n <p>The answer will be a word/place/name/jargon related to India in some way, and an interesting trivia will be displayed after you play!</p>\n     <div class="s">\n        <p><strong>Examples</strong></p>\n        <div class="">\n          <div class="row">\n            <game-tile letter="s" evaluation="correct" reveal></game-tile>\n            <game-tile letter="t"></game-tile>\n            <game-tile letter="a"></game-tile>\n            <game-tile letter="i"></game-tile>\n            <game-tile letter="r"></game-tile>\n          </div>\n          <p>The letter <strong>S</strong> is in the word and in the right spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="p"></game-tile>\n            <game-tile letter="l" evaluation="present" reveal></game-tile>\n            <game-tile letter="u"></game-tile>\n            <game-tile letter="c"></game-tile>\n            <game-tile letter="k"></game-tile>\n          </div>\n          <p>The letter <strong>L</strong> is in the word but in the wrong spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="m"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="n"></game-tile>\n            <game-tile letter="e" evaluation="absent" reveal></game-tile>\n            <game-tile letter="y"></game-tile>\n          </div>\n          <p>The letter <strong>E</strong> is not in the word in any spot.</p>\n        </div>\n      </div>\n      <p><center><strong style="color: var(--orange);" >A new DUDELE will be available each day until Independence Day, Jul 4th 2022.</strong></center></p></div>\n  </section>\n';
     var Hs = (function (e) {
       r(t, e);
       var a = h(t);
