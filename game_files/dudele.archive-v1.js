@@ -730,7 +730,7 @@
 		"right",
 		"court",
 		"birds",
-		"force", /*DUDELE Dictionary ends*/ 
+		"thank", /*DUDELE Dictionary ends*/ 
         "taxes", 
         "train", 
         "music", 
@@ -2341,7 +2341,7 @@
                 })),
                 (this.shadowRoot.querySelector("#plus-archive").addEventListener("click", function () {
                     var currentGame = Ga(new Date(JSON.parse(window.localStorage.getItem(archiveDate)))) - 313;
-                    if (currentGame == Ga(new Date()) - 314) {
+                    if (currentGame == Ga(new Date()) - 314 || currentGame > 66) { //last day logic - write the last but 1 day here 
                       return;
                     }
 
@@ -2356,20 +2356,24 @@
                 })),
                 (this.shadowRoot.querySelector("#random-archive").addEventListener("click", function () {
                     var archiveToday = new Date();
+					//last day logic - begin
+					var lastDate = new Date(2022, 6, 4, 0, 0, 0);
+					if (archiveToday >= lastDate){
+					var archiveToday = new Date(2022, 6, 5, 0, 0, 0);
+					}
+					//last day logic - end					
                     var currentGame = Ga(archiveToday) - 313;
                     var randomGame = Math.floor(Math.random() * (currentGame - 1)) + 1;
                     var dayDiff = currentGame - randomGame;
-                    
                     window.localStorage.setItem("archive-hasPlayed", "1");
                     e.lastPlayedTs = Date.now();
                     saveArchive(e);
-                    
-                    window.localStorage.setItem(archiveDate, JSON.stringify(archiveToday.setDate(archiveToday.getDate() - dayDiff)));
+					window.localStorage.setItem(archiveDate, JSON.stringify(archiveToday.setDate(archiveToday.getDate() - dayDiff)));
 
                     window.location.reload();
                 })),
                 (this.shadowRoot.querySelector("#first-archive").addEventListener("click", function () {
-                    var archiveToday = new Date();
+                    var archiveToday = new Date();						
                     var currentGame = Ga(archiveToday) - 313;
                     var dayDiff = currentGame - 1;
                     
@@ -2383,6 +2387,12 @@
                 })),
                 (this.shadowRoot.querySelector("#last-archive").addEventListener("click", function () {
                     var archiveToday = new Date();
+					//last day logic - begin
+					var lastDate = new Date(2022, 6, 4, 0, 0, 0);
+					if (archiveToday >= lastDate){
+					var archiveToday = new Date(2022, 6, 5, 0, 0, 0);
+					}
+					//last day logic - end					
                     var archiveYesterday = new Date(archiveToday.setDate(archiveToday.getDate() - 1));
                     
                     window.localStorage.setItem("archive-hasPlayed", "1");
@@ -3086,7 +3096,7 @@
 				"Women had to fight for their rights. The 19th amendment to the constitution, which finally gave women the right to vote, was passed by Congress in 1919 and ratified in 1920. It was a moment that changed women’s history forever. Not only did women finally have the right to vote, but the amendment also gave them the right to own property.", /*64 right*/ 
 				"The Supreme Court of the United States is the highest court in the federal judiciary of the United States. It has ultimate appellate jurisdiction over all U.S. federal court cases, as well as over state court cases that involve a point of federal law. ", /*65 court*/ 
 				"You’ve probably heard that Benjamin Franklin wanted the sturdy turkey to be our national bird instead of the majestic bald eagle. It’s an interesting story, but it’s not true. Franklin wrote his daughter a letter, stating that he thought the Great Seal looked more like a turkey than a bald eagle and from there, went on to philosophize about the attributes of both birds. This letter became the source for the turkey instead of the eagle myth. ", /*66 birds*/ 
-				"Air Force One is the official air traffic control call sign for a United States Air Force aircraft carrying the president of the United States. In common parlance, the term is used to denote US Air Force aircraft modified and used to transport the president and a metonym for the primary presidential aircraft, VC-25, although it can be used to refer to any Air Force aircraft the president travels on.", /*67 force*/ 
+				"Thanksgiving is a federal holiday in the United States, celebrated on the fourth Thursday of November. It originated as a day of thanksgiving and harvest festival, with the theme of the holiday revolving around giving thanks and the centerpiece of Thanksgiving celebrations remaining a Thanksgiving dinner. Thanksgiving is truly the most important of American holidays because, more than even Christmas or the Fourth of July, it is a time when American families reunite, express gratitude for one another, and feel closer to one another than at any other time.", /*67 thank*/ 
 				];	      
                 saveArchiveNoApp();
                 if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 314)) {
